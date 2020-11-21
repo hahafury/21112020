@@ -1,0 +1,89 @@
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.userCard {
+  width: 25%;
+  height: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid rgb(145, 145, 85);
+  z-index: 2;
+  border-radius: 20px;
+}
+
+.topBlock {
+  height: 150px;
+  background: url(https://abc-decor.com/img/gallery/4/thumbs/thumb_l_nus_10531.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mainBlock {
+  width: 100%;
+  position: relative;
+  padding: 0 25px 0 25px;
+  background-color: white;
+}
+
+.userPhoto {
+  position: relative;
+  top: -75px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.userPhoto img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid rgb(136, 95, 95);
+  border-radius: 50%;
+  background-color: rgb(15 30 48);
+  margin: inherit;
+}
+
+.userInfo {
+  margin-top: -50px;
+  text-align: center;
+}
+
+.userInfo p {
+  color: grey;
+}
+
+.userInfo .userName p {
+  font-size: 30px;
+  color: black;
+}
+
+.userInfo .userCity p {
+  font-size: 14px;
+}
+
+.userInfo .userProfession {
+  font-size: 20px;
+}
+
+.userInfo .aboutUser {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.footer {
+  height: 100px;
+  padding: 30px;
+}
+
+.social {
+  background-color: grey;
+  display: inline-block;
+  margin-left: 55px;
+  border-radius: 20%;
+}
